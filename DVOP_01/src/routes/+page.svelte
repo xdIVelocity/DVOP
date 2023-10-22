@@ -6,6 +6,7 @@
     import ActuallFooter from "../nested/actuall-footer/actuall-footer.svelte";
     import MiddlePart from "../nested/middle-part/middle-part.svelte";
     import Features from "../nested/features/features.svelte";
+    import Plans from "../nested/plans/plans.svelte";
 </script>
 
 <body style="margin: 0">
@@ -22,6 +23,9 @@
         </div>
         <div class="features">
             <Features/>
+        </div>
+        <div class="subscription-plans">
+            <Plans/>
         </div>
         <div class="footer">
             <Footer/>
@@ -71,7 +75,13 @@
             align-content: center;
             display: flex;
         }
+        .subscription-plans{
+            min-height: 100vh;
+            width: 100%;
+            background: #FFF2DD;
+            color:#333333;
 
+        }
 
         .footer{
             background: #BE6361;
