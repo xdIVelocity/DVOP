@@ -35,6 +35,7 @@
         }
         #headerButton {
             button {
+                margin-top: 1em;
                 padding: 1em 4em;
                 background-color: #ff8482;
                 border: 0.2px solid white;
